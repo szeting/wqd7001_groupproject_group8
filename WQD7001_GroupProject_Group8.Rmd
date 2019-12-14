@@ -1,0 +1,74 @@
+---
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+##
+<br/><br/><center><font size="18">*WQD 7001 Principle of Data Science*</font></center><br/>
+
+<center><font size="18">Group Project</font></center><br/>   
+
+<center><font size="24">**Title: Pima Indian Diabetic Analysis**</font></center><br/>
+Group 8  
+Group Members:  
+Xavier Tay Yi Han  (WQD 180109)  
+Law Chen Cha       (WQD 180087)  
+Lee Mei Tee        (WQD 180046)  
+Bong Sze Ting      (WQD 180033)   
+
+
+## 
+<center><font size="20">*Introduction*</font></center>  
+- According to International Diabetes Federation, approximately 463 million adult (20-79 years) were living in diabetes and the prevelence will increaed by 50% in 2045.<br/> 
+<center><font size="25"><p style="color:red">**50% of diabetic people are not aware that they have diabetes**</p></font></center>
+- A shiny app is developed to improve the level of awareness of diabetes among public.<br/>
+- Factor of diabetes is visualized to have better understanding on the relationshinp between variables among diabetes and non-diabetes.<br/>
+- A predictive model is developed to predict the probability of getting diabetes.<br/>
+- A diabetes dataset of Women Pima Indian ethnic was taken as sample for our analysis. 
+
+Source:  
+https://diabetesatlas.org/en/
+
+
+## 
+<center><font size="20">*Data Science Process*</font></center> 
+1. Asking a question<br/>
+    + What is the variable relationship between diabetic and non diabetic group?<br/>
+    + What is the chances of getting diabates based on the predictive model we have built? <br/>
+2. Getting data<br/>
+    + The dataset is obtained from Kaggle. The dataset consists several medical predictor variables for diabetes. The dataset only include the             information of female for Pima Indian heritage.<br/>
+    + Source: https://www.kaggle.com/uciml/pima-indians-diabetes-database<br/>
+3. Exploring the data<br/>
+    + Visualize the data by using chart diagram<br/>
+4. Model the data<br/>
+    + Build a predictive model for diabetes<br/>
+5. Presenting the result<br/>
+    + The result is presented by using Shiny App<br/>  
+
+Please refer this link for the R code: https://github.com/xaviertay/principle/blob/master/pima-indians-diabetes-database/WQD7001_GroupProject_Group8.r
+
+
+##
+
+<center><font size="20">*App Description and Outcome*</font></center><br/>
+<center>![all text](https://raw.githubusercontent.com/xaviertay/principle/master/pima-indians-diabetes-database/Visualization.gif){width=40%}   ![all text](https://raw.githubusercontent.com/xaviertay/principle/master/pima-indians-diabetes-database/Prediction.gif){width=40%}</center>
+
+The first page illustrate the visualization of variables. The second page is for the prediction of diabetes.<br/><br/> 
+
+The app can be accessed at: https://chencha.shinyapps.io/GroupProject/
+
+
+##
+<center><font size="20">*Experience*</font></center><br/>   
+- By using shiny app, we can visualize the relationship between variable of diabetes dataset in an interative manner.<br/><br/> 
+- It is easy to use as does not need any knowledge of HTML or JavaScript to get started.<br/><br/> 
+- The predictive model in the app is beneficial for people to predict the probability of getting diabetes.<br/><br/> 
+- We hope to collect more data to reflect the diabetes condition of larger population and improve the reliability of our app.   
+
+<br/><center><font size="18">Thank you!</font></center><br/>  
+
